@@ -1,7 +1,7 @@
 # Data Filtering & Fractionation Correction
 
 ## Contents
-- `filtering_Yilgarn-mafics.sh`: shell script for filtering the source dataset (DATA CITATION) by a number of geographical and geochemical filters
+- `filtering_Yilgarn-mafics.sh`: shell script for filtering the source dataset by a number of geographical and geochemical filters
 - `Australia_mafic-compilation_Yilgarn_filtered.csv`: output of `filtering_Yilgarn-mafics.sh`
 - `Results_15kbar_cpx93fo93_Langmuir_traces-O.xlsx`: output of Petrolog3 fractionation correction on `Australia_mafic-compilation_Yilgarn_filtered.csv`; includes all calculation steps and model parameters
 - `Results_15kbar_cpx93fo93_Langmuir_traces-O.csv`: post-processed version of final melt compositions for each sample calculated in `Results_15kbar_cpx93fo93_Langmuir_traces-O.xlsx`; includes re-calculated trace element concentrations
@@ -9,7 +9,10 @@
 ## Step 1: Filtering
 
 ### Data file pre-treatment
-- Download a copy of the full data compilation from [DATA CITATION].
+- Download a copy of the full data compilation from:
+
+Klöcking, M., Champion, D.C., Smithies, R.H., Lowrey, J.R., Norman, M.D., 2025. Compilation of mafic igneous rock compositions from Australia (Archaean to Quaternary ages). GFZ Data Services. https://doi.org/10.5880/digis.e.2025.001
+
 - Save main data sheet in CSV format.
 
 
